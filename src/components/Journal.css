@@ -1,0 +1,43 @@
+.journal{
+    margin: 4rem;
+}
+.page-width {
+    max-width: 900px;
+    padding-inline: 3rem;
+    margin-inline: auto;
+}
+.main-sidebar-j{
+    padding-block: 2rem;
+  display: grid;
+  grid-template-columns:30% 1fr;
+  align-items: start;
+  gap: 2rem;
+  width: 100%;
+}
+.j-left{
+    position: sticky;
+  top: 2rem;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.j-right{
+    width: 80%;
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.j-content{
+    display: flex;
+    height: 30vh;
+}
+.j-img-group img{
+    width: 200px;
+    height: 20vh;
+}
