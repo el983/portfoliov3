@@ -1,0 +1,86 @@
+
+:root{
+    --nps:4;
+    --npHeight:100vh;
+    --npTopPadding:1.5rem;
+    --npMargin:4vw
+}
+.newd1{
+    margin-top: 50px ;
+    width: 100%;
+    /* background:green; */
+}
+#nps{
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+	grid-template-rows: repeat(var(--nps), var(--npHeight));
+	gap: var(--npMargin);
+	padding-bottom: calc(var(--nps) * var(--npTopPadding));
+	margin-bottom: var(--npMargin);
+}
+#np1 {
+	--index: 1;
+}
+#np2 {
+	--index: 2;
+}
+#np3 {
+	--index: 3;
+}
+#np4 {
+	--index: 4;
+}
+
+#np1 {
+	position: sticky;
+	top: 0;
+	padding-top: calc(var(--index) * var(--cardTopPadding));
+
+}
+#np2{
+    position: sticky;
+    top: 5%;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+#np3{
+    position: sticky;
+    top: 10%;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+#np4{
+    position: sticky;
+    top: 15%;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+#np1 .np-body {
+	background-color: #52B2CF;
+}
+#np2 .np-body {
+	/* background-color: #7EC4CF; */
+	background-color: #E5A36F;
+}
+#np3 .np-body {
+	background-color: #9CADCE;
+}
+#np4 .np-body {
+	background-color: #D4AFB9;
+}
+
+.np-body {
+	box-sizing: border-box;
+	padding: 30px;
+	border-radius: 50px;
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.3);
+	height: var(--npHeight);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+}
+
+h2 {
+	font-size: 2.5enp;
+}
