@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="c-name">
-        <h3>JOY CHOUDHURY</h3>
+        <h3>JOY CHOWDHURY</h3>
       </div>
       <div className="ham" onClick={toggleMenu}>
         <h5>Menu</h5>
