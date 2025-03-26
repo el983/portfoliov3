@@ -10,7 +10,7 @@
     z-index: 3;
     
     line {
-      stroke-width: 100;
+      stroke-width: 50;
       stroke-linecap: round;
       z-index: 3;
     }
