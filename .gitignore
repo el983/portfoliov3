@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Production build files
+dist/
+build/
+
+# Editor & OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Vercel & Next.js specific
+.vercel/
+.next/
+out/
+
+# Cache files
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
