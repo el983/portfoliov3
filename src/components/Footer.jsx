@@ -42,7 +42,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <ul>
             <li>Phone: +91 8274969037</li>
-            <li>Email: info@kluniverse.com</li>
+            <li>Email: demo@demo.com</li>
             <li>Address: Kolkata, India</li>
           </ul>
         </div>
