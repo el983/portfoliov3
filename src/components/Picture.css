@@ -1,0 +1,10 @@
+.pic{
+    width: 100%;
+    overflow: hidden;
+    /* height: 100vh; */
+    
+}
+.pic video{
+    /* height: 100vh; */
+    width: 100vw;
+}
