@@ -52,9 +52,7 @@ const Navbar = () => {
             </li>
             
             
-            <li className="nav-item">
-              <a href="#footer123" className="nav-link" onClick={(e) => handleScroll(e, 'footer123')}>Footer</a>
-            </li>
+            
            
             
           </ul>
