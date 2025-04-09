@@ -94,7 +94,7 @@ const Contact = () => {
                       alt="email icon" 
                     />
                     <p className="contact-textc">
-                    info@kluniverse.com
+                    demo@demo.com
                     </p>
                   </div>
                   <div className="mail textc-box">
