@@ -9,6 +9,7 @@ import Picture from './components/Picture';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 // import Newd1 from './components/Newd1';
+import PicGallery from './components/PicGallery'
 import Contact from './components/Contact';
 import Home from './components/Home';
 // import Zoom from './components/Zoom';
@@ -31,6 +32,7 @@ function App() {
       {/* <Newd1/> */}
       {/* <Motion/> */}
       <Card3/>
+        <PicGallery/>
       
       <Awards/>
       
