@@ -280,8 +280,21 @@
   @media (max-width: 500px) {
     
     .contact_us_green .responsive-container-block.big-container {
-      padding: 0 20px;
+      padding: 0 ;
       
+    }
+    .contact_us_green .responsive-container-block{
+      margin: 0;
+    }
+    
+    .contact_us_green .input{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .contact_us_green .responsive-cell-block {
+      min-height: 75px;
+      width: 100%;
+      /* background-color: green; */
     }
     .contact_us_green .workik-contact-bigbox {
       display: block;
@@ -303,6 +316,7 @@
       margin-bottom: 25px;
     }
   }
+  
   
   /* Responsive Grid Classes */
   *,
