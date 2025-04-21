@@ -79,9 +79,9 @@ const Awards = () => {
     window.addEventListener("pointerdown", updatePointer);
     window.addEventListener("pointermove", updatePointer);
 
-    createTrail("cyan", 30);
-    createTrail("yellow", 20);
-    createTrail("orange", 10);
+     createTrail("orange", 30);
+    createTrail("#fa8128", 20);
+    createTrail("#be5504", 10);
 
     return () => {
       // Cleanup: Remove event listeners and SVGs when component unmounts
