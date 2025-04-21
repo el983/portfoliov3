@@ -9,6 +9,7 @@
     overflow: hidden;
   }
   .home video{
+    min-width: 100vw;
     filter: blur(1px); /* Optional blur */
     /* position: absolute; */
     /* height: 100vh;
