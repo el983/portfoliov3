@@ -39,29 +39,29 @@ const Home = () => {
   return (
     <>
       <div className='home' id='home123'>
-      <video src="/videos/jc_bg.mp4" autoPlay muted loop></video>
-      <div className="write">
-        <ProfileCard/>
-        
-        {/* <img src={client1} alt="" />
+        <video src="/videos/jc_bg_sun_3.mp4" autoPlay muted loop></video>
+        <div className="write">
+          <ProfileCard />
+
+          {/* <img src={client1} alt="" />
         <h1>Learning & Development leader, motivational speaker, and emotional intelligence coach with over 21 years of experience </h1> */}
+        </div>
+        <div className="h-image" ref={imageRef}>
+
+          <img src={JC} alt="" />
+        </div>
       </div>
-      <div className="h-image" ref={imageRef}>
-        
-        <img src={JC} alt="" />
+      <div className="home-res">
+        <div className="top-res">
+          <video src="/videos/jc_bg_res_bird.mp4" autoPlay muted loop></video>
+          <img src={jc_res} alt="" />
+        </div>
+        <div className="bottom-res">
+          <ProfileCard />
+        </div>
       </div>
-    </div>
-    <div className="home-res">
-          <div className="top-res">
-            <video src="/videos/jc_bg_res.mp4"autoPlay muted loop></video>
-            <img src={jc_res} alt="" />
-          </div>
-          <div className="bottom-res">
-          <ProfileCard/>
-          </div>
-    </div>
     </>
-    
+
   );
 };
 
