@@ -53,7 +53,7 @@ const Home = () => {
       </div>
       <div className="home-res">
         <div className="top-res">
-          <video src="/videos/jc_bg_sun_3.mp4" autoPlay muted loop></video>
+          <video src="/videos/sunrise.mp4" autoPlay muted loop></video>
           <img src={jc_res} alt="" />
         </div>
         <div className="bottom-res">
