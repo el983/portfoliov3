@@ -1,3 +1,4 @@
+
 .project-form-container {
   display: flex;
   justify-content: space-between;
@@ -110,9 +111,9 @@
   }
 
 .profile-img {
-  height: 120px;
+  height: 140px;
   width: 100px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .arrow {
