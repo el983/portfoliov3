@@ -1,6 +1,8 @@
 import React from "react";
 import "./Contact.css";
+import p1 from "../assets/client1.png";
 import MagneticButton from "./MagneticButton";
+import { p } from "framer-motion/m";
 
 const ProjectForm = () => {
   return (
@@ -67,8 +69,8 @@ const ProjectForm = () => {
       </div>
 
       <div className="form-right">
-        <img src="../assets/client1.png" alt="profile" className="profile-img" />
-        <div className="arrow">➔</div>
+        <img src={p1} alt="profile" className="profile-img" />
+        <div className="arrow">↘</div>
 
         <div className="workik-contact-bigbox">
                 <div className="workik-contact-box">
