@@ -67,7 +67,7 @@ const ProjectForm = () => {
       </div>
 
       <div className="form-right">
-        <img src="./images/p6.png" alt="profile" className="profile-img" />
+        <img src="./assets/client1.png" alt="profile" className="profile-img" />
         <div className="arrow">➔</div>
 
         <div className="workik-contact-bigbox">
