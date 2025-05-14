@@ -6,5 +6,12 @@ body{
     overflow-x: hidden;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #1e1e1e inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
 
 
