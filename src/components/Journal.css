@@ -1,0 +1,152 @@
+/* body{
+    background: beige;
+} */
+
+.journal{
+    margin: 4rem;
+    background: #303655;
+    border-radius: 20px;
+    color: #deebf7;
+    
+    /* overflow-x: hidden; */
+    
+}
+
+.page-width {
+    
+    max-width: 900px;
+    padding: 3rem;
+    margin-inline: auto;
+    /* background: red; */
+
+}
+.main-sidebar-j{
+    /* margin-top: 50px; */
+  padding: 5rem;
+  display: grid;
+  grid-template-columns:30% 1fr;
+  align-items: start;
+  gap: 2rem;
+  width: 100%;
+  /* background: red; */
+}
+.j-left{
+  position: sticky;
+  top: 5rem;
+  border-radius: 10px;
+  /* background: white; */
+  color: white;
+  align-items: center;
+}
+.j-left img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+.j-left p{
+    padding: 20px ;
+    text-align: justify;
+}
+.j-right{
+    width: 90%;
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #bfcbce;
+    padding: 20px;
+    border-radius: 10px;
+    color: #042652;
+    
+}
+.j-content{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 30vh;
+    /* background: blue; */
+
+}
+.j-para{
+    width: 30rem;
+    text-align: left;
+    /* background: red; */
+}
+.j-img-group img{
+    width: 400px;
+    height: 20vh;
+}
+@media (max-width:770px){
+    .journal{
+        margin: 0;padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+        border-radius: 0;
+    }
+    .main-sidebar-j{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 2rem;
+        /* background: red; */
+    }
+    .j-left img{
+        border-radius: 0;
+    }
+    .j-right{
+        width: 100%;
+        /* background: red; */
+    }
+    .j-img-group img{
+        height: 15vh;
+    }
+    .j-content{
+        height: 20vh;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        
+    }
+    /* .j-para{
+        text-align: center;
+        
+    } */
+    .j-para p{
+        font-size: 1.6rem;
+    }
+    
+}
+@media (max-width:428px){
+    .main-sidebar-j{
+        padding: 0;
+    }
+    .j-left{
+        border-radius: 0;
+    }
+    .j-left p{
+        text-align: center;
+    }
+    .j-left img{
+        border-radius: 0;
+    }
+    .j-right{
+        border-radius: 0;
+    }
+    .j-content{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        /* background: red; */
+        align-items: center;
+    }
+    .j-para{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .j-para p{
+        font-size: 1.3rem;
+    }
+}

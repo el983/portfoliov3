@@ -1,0 +1,15 @@
+.magnetic-btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #4a63f0, #6c7dff);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s ease-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    will-change: transform;
+    perspective: 1000px;
+  }
