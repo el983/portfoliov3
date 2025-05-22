@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 .hero-section{
   display: flex;
   justify-content: center;
@@ -11,11 +13,13 @@
 .imagejc{
   position: absolute;
   left: 20%;
+  z-index: 50;
   /* top: -40px; */
   /* background: blue; */
 }
 .imagejc img{
   height: 100vh;
+  
 
 }
 /* .arrow{
@@ -26,7 +30,7 @@
   padding: 25px;
   width: 450px;
   right: 8%;
-  top: 30%;
+  top: 20%;
 
   background: rgba(33, 34, 33, 0.778);
 border-radius: 16px;
@@ -42,4 +46,49 @@ border: 1px solid rgba(181, 196, 179, 0.71);
 .intro-text p{
   color: antiquewhite;
   text-align: justify;
+}
+.mov-text-wrapper{
+  position: absolute;
+  bottom: 38px;
+  width: 100%;
+  /* background: brown; */
+  padding: 15px;
+  overflow: hidden;
+  --gap: 20px;
+  gap: var(--gap);
+}
+.mov-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 15s linear infinite;
+  --gap: 20px;
+  gap: var(--gap);
+}
+
+.mov-text p {
+  display: inline-block;
+  min-width: 100%;
+  /* padding-left: 100%; */
+  /* padding-right: 100vw; */
+  color: rgb(112, 112, 115);
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: "Inter Tight", sans-serif;
+}
+.mov-text-wrapper :hover {
+  animation-play-state: paused;
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scrollText {
+  /* 0% {
+    transform: translateX(calc());
+  } */
+  
+  /* 100% {
+    transform: translateX(100%);
+  } */
+   to{
+    transform: translateX(calc(-100% - var(--gap)));
+   }
 }

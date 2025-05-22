@@ -16,6 +16,18 @@ const Home = () => {
             and skilled emotional intelligence coach with over 21 years of transformative experience.
           </p>
         </div>
+        <div className="mov-text-wrapper">
+        <div className="mov-text">
+          <p>
+            {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium sit repellat necessitatibus dignissimos, quisquam sapiente! */}
+            Featured as “Top Icon of India” by Business Talkz Magazine.
+          </p>
+          <p aria-hidden="true">
+      {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium sit repellat necessitatibus dignissimos, quisquam sapiente! */}
+      Featured as “Top Icon of India” by Business Talkz Magazine.
+    </p>
+        </div>
+      </div>
     </div>
   )
 }
