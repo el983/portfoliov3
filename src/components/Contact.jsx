@@ -19,7 +19,7 @@ const ProjectForm = () => {
             <br />
             <span>What's your name?</span>
           </label>
-          <input type="text" placeholder="John Doe *" />
+          <input type="text" placeholder="Enter your name" />
         </div>
 
         <div className="form-group">
@@ -28,7 +28,7 @@ const ProjectForm = () => {
             <br />
             <span>What's your email?</span>
           </label>
-          <input type="email" placeholder="john@doe.com *" />
+          <input type="email" placeholder="Enter your email" />
         </div>
 
         <div className="form-group">
