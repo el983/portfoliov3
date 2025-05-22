@@ -11,6 +11,9 @@ function About() {
         <span>ABOUT ME</span>
         <span>Joy Chowdhury</span>
       </h2>
+      <div className="ar-cont">
+        <div class="scroll"></div>
+      </div>
     </div>
   );
 }
